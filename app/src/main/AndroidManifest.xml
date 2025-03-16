@@ -26,8 +26,7 @@
             android:name=".MyReceiver"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.BATTERY_LOW" />
-                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="MyReceiver.ACTION_CLICKED" />
             </intent-filter>
         </receiver>
     </application>
